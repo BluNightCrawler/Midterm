@@ -30,7 +30,7 @@ public class ViewCourse extends AppCompatActivity {
         courseModalArrayList = new ArrayList<>();
         dbHandler = new DBHandler(ViewCourse.this);
 
-        create = findViewById(R.id.idBtnCreate);
+        /*create = findViewById(R.id.idBtnCreate);*/
 
         // getting our course array
         // list from db handler class.
@@ -47,13 +47,13 @@ public class ViewCourse extends AppCompatActivity {
         // setting our adapter to recycler view.
         coursesRV.setAdapter(courseRVAdapter);
 
-        create.setOnClickListener(new View.OnClickListener(){
+        /*create.setOnClickListener(new View.OnClickListener(){
 
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(ViewCourse.this, MainActivity.class);
                 startActivity(i);
             }
-        });
+        });*/
     };
     }

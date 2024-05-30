@@ -1,10 +1,13 @@
 package com.example.midterm;
 
+import static androidx.core.content.ContextCompat.startActivity;
+
 import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -16,6 +19,8 @@ public class CourseRVAdapter extends RecyclerView.Adapter<CourseRVAdapter.ViewHo
     // variable for our array list and context
     private ArrayList<CourseModel> courseModalArrayList;
     private Context context;
+    private Button create;
+
 
     // constructor
     public CourseRVAdapter(ArrayList<CourseModel> courseModalArrayList, Context context) {
@@ -30,6 +35,7 @@ public class CourseRVAdapter extends RecyclerView.Adapter<CourseRVAdapter.ViewHo
         // file for our recycler view items.
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.course_rv_item, parent, false);
         return new ViewHolder(view);
+
     }
 
     @Override
@@ -79,7 +85,10 @@ public class CourseRVAdapter extends RecyclerView.Adapter<CourseRVAdapter.ViewHo
             courseDescTV = itemView.findViewById(R.id.idTVCourseDescription);
             courseDurationTV = itemView.findViewById(R.id.idTVCourseDuration);
             courseTracksTV = itemView.findViewById(R.id.idTVCourseTracks);
+
+
         }
 
     }
+
 }

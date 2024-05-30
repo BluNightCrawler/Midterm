@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
                 dbHandler.addNewCourse(courseName, courseDuration, courseDescription, courseTracks);
 
                 // after adding the data we are displaying a toast message.
-                Toast.makeText(MainActivity.this, "Course has been added.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Person has been added.", Toast.LENGTH_SHORT).show();
                 courseNameEdt.setText("");
                 courseDurationEdt.setText("");
                 courseTracksEdt.setText("");

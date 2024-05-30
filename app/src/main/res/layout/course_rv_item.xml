@@ -61,13 +61,13 @@
             android:padding="3dp"
             android:text="Short Description of you"
             android:textColor="@color/black" />
-        <Button
+        <!--<Button
              android:id="@+id/idBtnCreate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="New Create"
-            android:textAllCaps="false" />
+            android:textAllCaps="false" />-->
     </LinearLayout>
 
 

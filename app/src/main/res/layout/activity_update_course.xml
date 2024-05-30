@@ -54,5 +54,13 @@
         android:layout_margin="10dp"
         android:text="Delete Person"
         android:textAllCaps="false" />
+    <Button
+        android:id="@+id/idBtnCreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Create a new Person"
+        android:textAllCaps="false" />
+
 
 </LinearLayout>
