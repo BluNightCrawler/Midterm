@@ -10,7 +10,10 @@ Final Project
 I have taken this assignment and turned it into my final because it was already up and running knew it worked. 
 Plus for me to make the code look better since I was going to reference this project to start from scratch why not just be profiencent and make a project better then it was.
 This was a big step for me learning and the hardest part was to connect the API if I can connect it. I do not fully understand VM to send it into a API.
+One thing I feel like is more of the promblem is understanding python and how to connect it because the view is where it getting diffcult for me. There seems to have no way to change the view it just grabbing information
 But the main things I changes was the presentation so it is easier to access all the different pages for Post, Update, Get, and Delete CRUD
 Main Changes: Text to read what happening. Layout better, and overall shows what I have improved on and know how to build a project.
 Main things I learned in this class was CRUD, how to actually build a project in Android studio where I can even put API into the project. I put a map on android studio that works to see the area you want. Maybe not directions but maybe that could be the next step.
 Thanks for the class and looking forward to learing more in the future when I have two more quarters left.
+This whole project Has an inside API which contains only to the user I could not seem to make the API public or too even give access to to others.
+This project was easy to get the rest up to date with all the other functions and to work smoothly with each other.
