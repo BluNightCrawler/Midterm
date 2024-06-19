@@ -7,6 +7,14 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type in the Information that is Asked"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        />
+
     <!--Edit text to enter course name-->
     <EditText
         android:id="@+id/idEdtCourseName"

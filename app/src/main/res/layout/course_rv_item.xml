@@ -31,23 +31,23 @@
 
             <!--text view for our course tracks-->
             <TextView
-                android:id="@+id/idTVCourseTracks"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:padding="3dp"
-                android:text="Activitys you Like"
-                android:textColor="@color/black" />
-
-
-            <!--text view for our course duration-->
-            <TextView
                 android:id="@+id/idTVCourseDuration"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:padding="3dp"
                 android:text="Colors"
+                android:textColor="@color/black" />
+
+
+            <!--text view for our course duration-->
+            <TextView
+                android:id="@+id/idTVCourseTracks"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:text="Activity you Like"
                 android:textColor="@color/black" />
 
         </LinearLayout>

@@ -6,17 +6,30 @@
     android:layout_height="match_parent"
     tools:context=".ViewCourse">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is where All the information"
+        android:textSize="24dp"
+        android:textAlignment="center"/>
+
     <!--recycler view for displaying our courses-->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/idRVCourses"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-    <!--<Button
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="-32dp"
+        android:paddingTop="40dp" />
+
+    <Button
         android:id="@+id/idBtnCreate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:text="New Create"
+        android:layout_below="@+id/idRVCourses"
+        android:text="Create New"
         android:textAllCaps="false" />
--->
+
 </RelativeLayout>
