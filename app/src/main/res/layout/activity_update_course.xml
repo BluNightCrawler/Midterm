@@ -19,6 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
+        android:textColorHint="@color/black"
         android:hint="Enter Full Name" />
 
     <!--edit text to enter course duration-->
@@ -27,6 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
+        android:textColorHint="@color/black"
         android:hint="Enter Colors you Like" />
 
     <!--edit text to display course tracks-->
@@ -35,6 +37,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
+        android:textColorHint="@color/black"
+
         android:hint="Enter Activtys you do" />
 
     <!--edit text for course description-->
@@ -43,6 +47,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
+        android:textColorHint="@color/black"
+
         android:hint="Enter short Description of you" />
 
     <!--button for updating our course-->
